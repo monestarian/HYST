@@ -1,6 +1,5 @@
-#### app3.py holds the current main version of the app 
-#### app.py holds the next iterations
-#### install the dependencies using conda from the requirements.txt file
+#### appx.py holds the latest iteration where x should be the highest number currently in the repository until specified otherwise
+#### install the dependencies using conda from the environment.yml file
 #### run the conda environment in cmd -> command in cmd - "streamlit run app3.py" after changing directory to that folder
 
 

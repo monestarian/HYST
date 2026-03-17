@@ -1,0 +1,20 @@
+conda env export > environment.yml
+"this gives all the dependencies"
+
+
+conda env export --from-history > environment.yml  
+"this gives libraries which were exclusively asked for"
+
+
+conda create --name <env_name> --file spec-file.txt
+"this restores the dependencies"
+
+
+conda list --explicit > requirements.txt
+"When to Use It
+Production: Deploying a verified environment to a server.
+Same-OS Sharing: Giving a colleague an identical setup on the same type of machine.
+Troubleshooting: Recording a "snapshot" of an environment that is currently working perfectly.
+
+The "special" thing about an explicit specification file (marked by @EXPLICIT) is that it is a
+ lockfile designed for 100% exact reproduction without the need for calculations."

@@ -1,0 +1,14 @@
+name: hyst
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - matplotlib
+  - rasterio
+  - rioxarray
+  - ipykernel
+  - numpy
+  - xarray
+  - leafmap
+  - scikit-image
+prefix: C:\Users\shash\miniconda3\envs\hyst

@@ -122,7 +122,7 @@ toml
 maxUploadSize = 2000
 
 
-# Streamlit Multi-Raster Viewer: Update Summary
+# Streamlit Multi-Raster Viewer: Update Summary app6
 
 This document outlines the modifications made to the EnMAP Interactive Composite Viewer to support simultaneous, independent viewing of up to 4 images.
 
