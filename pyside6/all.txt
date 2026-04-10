@@ -1,0 +1,1 @@
+don't trim anything unless needs to for implementing the new functionality don't change formating or anything else apart from ading the new method and it's functionality in opentif2.py keep all current variable names and file names same give full code
